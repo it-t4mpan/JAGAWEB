@@ -10,7 +10,7 @@ Script PHP ini dirancang untuk memantau potensi defacement pada situs .go.id yan
 1. **Dorking Otomatis**: Melakukan pencarian otomatis di Google berdasarkan keyword khusus.
 2. **Notifikasi Telegram**: Mengirimkan notifikasi ke bot Telegram dengan pesan "Web defacement Judi Online Terbaru", timestamp, dan daftar situs hasil pencarian.
 3. **Penjadwalan dengan Cron Job**: Script dapat dijalankan secara berkala melalui cron job untuk pemantauan otomatis.
-4. **Antarmuka Responsif**: Menggunakan Tailwind CSS untuk tampilan yang menarik, responsif, dan mudah digunakan.
+4. **UI Responsif**: Menggunakan Tailwind CSS untuk tampilan yang menarik, responsif, dan mudah digunakan.
 
 ## Struktur dan Alur Kerja
 1. **Pencarian Google API**: Skrip menggunakan Google Custom Search API untuk melakukan pencarian dengan filter satu jam terakhir.
