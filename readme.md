@@ -9,16 +9,14 @@ Script PHP ini dirancang untuk memantau potensi defacement pada situs .go.id yan
 ## Fitur Utama
 1. **Dorking Otomatis**: Melakukan pencarian otomatis di Google berdasarkan keyword khusus.
 2. **Notifikasi Telegram**: Mengirimkan notifikasi ke bot Telegram dengan pesan "Web defacement Judi Online Terbaru", timestamp, dan daftar situs hasil pencarian.
-3. **Caching Hasil Pencarian**: Untuk menghindari penggunaan API berlebihan, skrip menggunakan mekanisme caching sederhana yang menyimpan hasil pencarian terbaru selama 1 jam.
-4. **Penjadwalan dengan Cron Job**: Script dapat dijalankan secara berkala melalui cron job untuk pemantauan otomatis.
-5. **Antarmuka Responsif**: Menggunakan Tailwind CSS untuk tampilan yang menarik, responsif, dan mudah digunakan.
+3. **Penjadwalan dengan Cron Job**: Script dapat dijalankan secara berkala melalui cron job untuk pemantauan otomatis.
+4. **Antarmuka Responsif**: Menggunakan Tailwind CSS untuk tampilan yang menarik, responsif, dan mudah digunakan.
 
 ## Struktur dan Alur Kerja
 1. **Pencarian Google API**: Skrip menggunakan Google Custom Search API untuk melakukan pencarian dengan filter satu jam terakhir.
-2. **Caching Hasil Pencarian**: Setelah pencarian, hasil disimpan dalam file cache selama satu jam untuk mengurangi beban API.
-3. **Notifikasi Telegram**: Jika ada hasil baru, skrip akan membuat pesan berisi daftar situs yang ditemukan dan mengirimkannya ke bot Telegram.
-4. **Antarmuka Pengguna**: Halaman utama menampilkan daftar hasil pencarian terbaru dalam antarmuka yang dibuat dengan Tailwind CSS.
-5. **Footer Copyleft**: Terdapat footer di bagian bawah halaman yang mencantumkan copyright serta penghargaan untuk NKRI.
+2. **Notifikasi Telegram**: Jika ada hasil baru, skrip akan membuat pesan berisi daftar situs yang ditemukan dan mengirimkannya ke bot Telegram.
+3. **User Interface**: Halaman utama menampilkan daftar hasil pencarian terbaru dalam UI yang dibuat dengan Tailwind CSS.
+4. **Footer Copyleft**: Terdapat footer di bagian bawah halaman yang mencantumkan copyleft serta penghargaan untuk NKRI.
 
 ## Pengaturan Awal
 1. **Google API Key**: Diperlukan kunci API Google untuk mengakses Custom Search Engine. Dapat diperoleh melalui akun Google Cloud.
