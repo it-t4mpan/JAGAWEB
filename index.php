@@ -39,7 +39,7 @@ $keyword = "site:*.go.id slot";
 $results = searchGoogle($keyword, $googleApiKey, $customSearchEngineId);
 
 // Membuat pesan untuk notifikasi
-$message = "🤬 Web Defacement Judi Online Terbaru 🤬\n";
+$message = "🤬 Web Defacement JUDOL Terbaru 🤬\n";
 $message .= "Timestamp: " . date("Y-m-d H:i:s") . "\n";
 if (!empty($results['items'])) {
     foreach ($results['items'] as $item) {
@@ -58,14 +58,14 @@ sendTelegramNotification($telegramToken, $telegramChatId, $message);
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dorking Monitor</title>
+    <title>Dorking Monitor by Xsan-Lahci</title>
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
 <body class="bg-gray-100 font-sans leading-normal tracking-normal">
     <div class="container mx-auto p-5">
         <div class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
             <h2 class="text-2xl font-bold text-gray-800 text-center mb-5">JAGAWEB - Jaringan Analisis Government Active Websites / Monitoring Web Defacement (.go.id)</h2>
-            <p class="text-gray-700 text-lg mb-4">Pencarian situs pemerintah yang terkena defacement judi online dalam 1 jam terakhir.</p>
+            <p class="text-gray-700 text-lg mb-4">Pencarian situs pemerintah indonesia yang terkena defacement judi online dalam 1 jam terakhir.</p>
             
             <div class="bg-gray-200 p-5 rounded-lg">
                 <h3 class="text-xl font-semibold mb-4">Hasil Pencarian</h3>
